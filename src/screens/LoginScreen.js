@@ -46,7 +46,7 @@ const _LoginScreen = (props) => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}
-                onPress={() => onFetchProduct()}
+                onPress={() => onFetchProduct}
             >
             <Text style={{ color: '#FFF', fontSize: 18 }}> Fetch Product</Text>
             </TouchableOpacity>
